@@ -1,9 +1,8 @@
 from graphics import Window, Line, Point
+from cell import Cell
 
 def main():
   win = Window(800, 600)
-  line = Line(Point(50, 50), Point(200, 200))
-  win.draw_line(line, "black")
   win.wait_for_close()
 
 main()
