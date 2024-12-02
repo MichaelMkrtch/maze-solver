@@ -1,5 +1,6 @@
 from graphics import Line, Point
 
+
 class Cell:
   def __init__(self, _win):
     self.has_top_wall = True
